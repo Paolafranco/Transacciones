@@ -42,18 +42,21 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(126, 308);
+            this.button1.BackColor = System.Drawing.Color.Maroon;
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button1.Location = new System.Drawing.Point(138, 300);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 23);
+            this.button1.Size = new System.Drawing.Size(162, 42);
             this.button1.TabIndex = 0;
             this.button1.Text = "Consultar ";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Beige;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(7, 54);
+            this.dataGridView1.Location = new System.Drawing.Point(29, 40);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(370, 221);
             this.dataGridView1.TabIndex = 1;
@@ -61,6 +64,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(439, 119);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(98, 13);
@@ -78,6 +82,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.Beige;
             this.textBox1.Location = new System.Drawing.Point(566, 114);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(117, 20);
@@ -85,6 +90,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.Color.Beige;
             this.textBox2.Location = new System.Drawing.Point(566, 169);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(117, 20);
@@ -101,6 +107,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.Color.Beige;
             this.textBox3.Location = new System.Drawing.Point(566, 229);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(117, 20);
@@ -108,12 +115,14 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(511, 294);
+            this.button2.BackColor = System.Drawing.Color.Maroon;
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(476, 305);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 23);
+            this.button2.Size = new System.Drawing.Size(150, 37);
             this.button2.TabIndex = 8;
             this.button2.Text = "Transferir";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
